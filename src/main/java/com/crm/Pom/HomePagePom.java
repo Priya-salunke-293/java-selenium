@@ -10,6 +10,9 @@ public class HomePagePom {
 	@FindBy(className = "oxd-main-menu-item")
 	private WebElement admin;
 	
+	@FindBy(xpath = "//span[text()='PIM']")
+	private WebElement pimMenu;
+	
 	@FindBy(className = "oxd-userdropdown-tab")
 	private WebElement profile_icon ;
 	
@@ -70,6 +73,10 @@ public class HomePagePom {
 	
 	public WebElement admin() {
 		return admin;
+	}
+	
+	public WebElement pimMenu() {
+		return pimMenu;
 	}
 	
 	public WebElement profileIcon() {
