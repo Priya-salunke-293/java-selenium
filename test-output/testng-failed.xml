@@ -5,8 +5,8 @@
     <classes>
       <class name="PimModule.Pim">
         <methods>
+          <include name="tc_0020"/>
           <include name="logout"/>
-          <include name="tc_0014"/>
           <include name="postConditions"/>
           <include name="login"/>
           <include name="preCondition"/>
