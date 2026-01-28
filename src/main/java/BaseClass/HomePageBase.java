@@ -57,7 +57,7 @@ public class HomePageBase {
         LoginPom login = new LoginPom(driver);
         login.username().sendKeys(user);
         login.password().sendKeys(pwd);
-        login.loginBtn().click();
+        login.loginButton().click();
 
     }
 

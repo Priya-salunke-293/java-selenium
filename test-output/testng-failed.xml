@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PimModule.Pim">
+      <class name="DashboardModule.Dashboard">
         <methods>
-          <include name="tc_0020"/>
+          <include name="applyLeaveFlow"/>
           <include name="logout"/>
           <include name="postConditions"/>
           <include name="login"/>
           <include name="preCondition"/>
         </methods>
-      </class> <!-- PimModule.Pim -->
+      </class> <!-- DashboardModule.Dashboard -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
